@@ -1,0 +1,17 @@
+form {
+    box-shadow: 0 4px 8px rgba(0,0,0,1.5);
+    color:black;
+}
+.invisible-bg{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.bg-btn{
+    background-color :rgba(255, 255, 255, 0.7);
+}
+button{
+    color:black;
+    border-radius: 7px;
+}
+#errorMessage{
+    color: #FF4500;
+}

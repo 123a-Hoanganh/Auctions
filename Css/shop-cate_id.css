@@ -1,0 +1,48 @@
+
+.card-body {
+    background-color: #fff9c4; /* Màu vàng nhạt */
+    color: #333; /* Đảm bảo màu chữ đen cho độ tương phản */
+    padding: 20px; /* Giữ nguyên padding để rộng rãi */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Bóng đổ nhẹ */
+}
+
+
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+    border-radius: 20px; /* Tăng giá trị này để có góc tròn hơn */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15); /* Tăng bóng đổ để nó rõ ràng hơn */
+    transition: transform 0.2s ease-in-out;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw; /* Giữ nguyên chiều cao responsive */
+    object-fit: cover; /* Đảm bảo hình ảnh phủ kín */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+}
+
+.btn-primary {
+    background-color: #0056b3; /* Màu xanh dương đậm */
+    border-color: #004080; /* Màu viền tối hơn một chút */
+}
+
+.btn-primary:hover {
+    background-color: #003366; /* Màu xanh dương sẫm hơn khi hover */
+    border-color: #002244; /* Màu viền tối hơn khi hover */
+}

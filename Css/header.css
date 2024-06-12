@@ -1,0 +1,41 @@
+    /* Tối ưu hóa màu sắc với sự kết hợp màu mới */
+    .navbar {
+        background-color: rgba(226,226,226,0.9); 
+    }
+    
+    .nav-link {
+        color: rgb(0,0,0); 
+    }
+    
+    .nav-link:hover {
+        color: red; /* Màu vàng khi hover, cho độ tương phản cao */
+    }
+    
+    .jumbotron {
+        background-size: cover;
+        color: #ffffff;
+        padding: 0; /* Bỏ padding để chiều cao được tính đúng *//* 100vh là 100% chiều cao viewport, 56px là chiều cao trung bình của navbar */
+        margin-top: 0; /* Loại bỏ margin phía trên nếu có */
+        display: flex;
+        flex-direction: column; /* Chỉ định hướng hiển thị của các item là theo chiều dọc */
+        justify-content: center; /* Căn giữa nội dung theo chiều ngang */
+        align-items: center; /* Căn giữa các items theo chiều dọc */
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+    
+
+    .jumbotron h1 {
+        font-weight: bold;
+
+    }
+
+    .dropdown-menu {
+        background-color: #ffffff; /* Nền trắng cho dropdown */
+        border: none; /* Loại bỏ viền */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Thêm bóng đổ cho hiện đại */
+    }
+
+    .dropdown-item:hover {
+        background-color: #0056b3; /* Màu nền khi hover */
+        color: #ffffff; /* Màu chữ trắng khi hover */
+    }
